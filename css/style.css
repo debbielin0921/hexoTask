@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -1343,4 +1343,17 @@ pre .javascript .function {
 .tagcloud a {
   margin-right: 5px;
   display: inline-block;
+}
+
+
+/*新增全版樣式*/
+.fullPage #main{
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+}
+.fullPage .article-meta ,
+.fullPage .article-header ,
+.fullPage .article-footer{
+  display: none;
 }
