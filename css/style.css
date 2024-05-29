@@ -411,6 +411,7 @@ body {
 @media screen and (max-width: 479px) {
   .main-nav-link {
     display: none;
+    
   }
 }
 #main-nav-toggle {
@@ -1356,4 +1357,38 @@ pre .javascript .function {
 .fullPage .article-header ,
 .fullPage .article-footer{
   display: none;
+}
+/*首頁樣式*/
+.motto{
+  text-align: center;
+  margin: 3% auto;
+  padding: 10px;
+  box-shadow: 0 0 6px #dadada;
+}
+.photoAll{
+width: 96%;
+display:flex;
+justify-content:space-between;
+  margin: 3% auto;
+  box-sizing: border-box;
+}
+.photoAll img{
+  border-radius: 6px;
+}
+.photoHalf{
+width: 49.8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.photoQuarter{
+display: flex;
+justify-content: space-between;
+  margin: 0 auto 1%;
+}
+.photoQuarter:nth-child(2){
+  margin: 1% auto 0;
+}
+.photoQuarter img{
+  width: 97%;
 }
